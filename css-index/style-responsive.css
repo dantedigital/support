@@ -1,0 +1,163 @@
+
+/* ---- INICIA @media screen and (min-width: 420px)
+*/
+
+@media screen and (min-width: 420px) {
+  #footer-logo .div-dante-services .section-dante-services .h5-footer, .h5b-footer{
+      max-width: 230px;
+      /*font-size: .8em; /**/
+
+  }
+}
+
+/* ---- FINALIZA @media screen and (min-width: 420px)
+*/
+
+
+/* ---- INICIA VACIO @media screen and (min-width: 620px)
+*/
+@media screen and (min-width: 620px) {
+     
+}
+/* ---- FINALIZA @media screen and (min-width: 620px)
+*/
+
+
+/* ---- INICIA @media screen and (min-width: 760px)
+*/
+@media screen and (min-width: 760px) {
+  
+
+
+/*-----------------------------------------------------*/
+
+/**/
+
+
+/*-------FINALIZA cuarto article h2: Diseño web productivo circulo
+*/
+
+
+
+/*------- inicia circulo article: h2 Diseño web inteligente 
+*/
+/*.section-2  .container .article-web-inteligente {
+  width: 50%;
+}*/
+
+/*.section-2  .container .article-web-inteligente .h2-web-inteligente {
+  width: 87%;
+    }*/
+
+  }
+
+/*  --- finaliza circulo article: h2 Diseño web inteligente
+*/
+  
+/*
+*/
+
+/*
+----- finaliza figure e img de linux
+*/
+
+
+@media screen and (min-width: 1100px) {/*@media screen and (min-width: 1320px)*/
+
+#footer-logo .div-dante-services{
+height: 500px;
+justify-content:space-around;
+/*VISUALIZADOR*/
+}
+
+
+/*INICIA CONTENEDOR DE CIRCULOS/**/
+/*#footer-logo .section-bulma-sass /**/ 
+/*max-width: 1350px;/**/
+/*padding: 0;/**/
+/*justify-content: first baseline;/**/
+ /*VISUALIZADOR*/
+/*}*/
+
+
+/*#footer-logo .h5-footer/**/ /*{*/ /*#footer-logo .section-bulma-sass .h5b-footer */
+/*display: flex;/**/
+/*flex-direction: column;/**/
+/*align-items: center;/**/
+/*justify-content: center;/**/
+/*width: 35%;/**/ /*ORIGINAL width: 35%;*/
+/*height: 140PX;/**/
+/*padding: 1rem 0em .6rem 0em;*/
+/*border-radius: 100%;/**/ /*ORIGINAL 6*/
+/*color: white;/**/
+/*background-color: aqua;/*VISUALIZADOR*/
+/*}*/
+
+
+#footer-logo .h5-footer a {
+color: white;
+font-size: 1.3em;
+text-decoration: none;
+}
+
+/* FINALIZA H5 BULMA Y SAS, CIRCULOS */
+
+/*
+*/
+
+/* inicia h2 dante digital*/
+
+#footer-logo .div-dante-services .section-dante-services {
+  /*VISUALIZADOR*/
+  flex-direction: row;
+  /*justify-content: space-around;/**/
+  justify-content: space-between;/**/
+   /*align-content:stretch;/**/
+   /*background-color: aqua;/*visualozador*/
+
+}
+/* ------------------------- */
+
+
+
+#footer-logo .div-dante-services .section-dante-services .h2-footer {
+width: 50%;
+height:50px;
+align-content: center;
+text-align: center;
+/*font-size: 9em;/**/
+/*border-radius: 9px;/**/
+/*background-color: aqua;/**/
+}
+
+/* termina h2 dante digital*/
+
+
+
+/* inica h5 soporte ti, android, web desing*/
+#footer-logo .div-dante-services .section-dante-services .h5-footer {
+display: flex;
+align-items: center;
+justify-content: center;
+
+margin-right: 2em;
+
+width: 35%;
+height: 130px;
+/*text-align: center;/**/
+/*font-size: 1.1em; /**/ 
+/*padding: 1.3rem .2rem .8rem .2rem;*/
+border-radius: 100%;
+border: solid 1px white;/**/
+/*background-color: aqua;/*VISUALIZADOR*/
+font-size: em;
+}
+
+#footer-logo .div-dante-services .section-dante-services .h5-footer a {
+color: white;
+text-decoration: none;
+}
+/* termina h5 soporte ti, android, web desing*/
+
+
+}

@@ -1,0 +1,785 @@
+/* --- Inician Tipos de Letra Para Footer y Contenido principal ---*/
+
+/* --- Fuente Para la letra del contenido Principal y El Footer --- */
+
+@font-face {
+  font-family: 'Syncopate-Regular';
+  src: url('../syncopate/Syncopate-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* --- Fuente para el menu navegacion --- */
+@font-face {
+  font-family: 'Syncopate-Bold';
+  src: url('../syncopate/Syncopate-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* 
+  ---- finaliza Tipos de Letra Para Footer y Contenido principal
+*/
+
+/*
+*/
+
+.header-nav-slide {
+  margin: 0;
+  padding: 0;
+  /*background-color: deepskyblue;/**/
+}
+
+/*
+  ----- inicia barra-navegacion responsive ----- / 
+*/
+
+  #menu-icono {
+    display: block;
+    width: 100%;
+    height: 2.1rem;
+    padding: .4rem 0rem .1rem 0rem;
+  }
+
+  #menu-icono img {
+    width: 1.7rem;
+    height: 1.6rem;
+    margin: .2rem 0rem 0rem .5rem;
+    border-radius: 100px;
+  }
+/*
+  ------ finaliza boton nav
+*/
+
+/*
+  ------ inicia barra-nav
+*/
+  
+  #barra-nav {
+    display: none;/*Oculta el contenido de la barra denavegacion*/
+    width: 100%;
+    background-color: rgba(1, 0, 12, 0.963);/*Fondo*/
+  }
+
+  #barra-nav > div {
+    width: 100%;
+  }
+
+  #barra-nav .menu-ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;/*elimina el espacio top permitiendo subir ul completo*/
+    padding: 0px;/*con esta propiedad se quita el espacio del ul*/
+    list-style: none;/*Con esta propiedad quitamos los circulos del ul*/
+    /*background-color: aqua; /*visualizador*/
+  }
+
+  #barra-nav .menu-ul .li-borde {
+   
+
+    width: 95%;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    padding: .3rem 0rem .5rem .7rem;
+  }
+
+  #barra-nav .menu-ul .li-borde {
+    width: 80%;
+    border-radius: .3rem;/*V*/
+    border-bottom: .1px solid white;/*V*/
+  }
+
+  #barra-nav .menu-ul .li-borde a {
+    font-size: .7em;
+    font-family: 'Syncopate-Bold';
+    color: rgb(18, 124, 246);
+    text-decoration: none;/*Con esta propiedad se elimina el subrayado de los li*/
+    text-shadow: .6px .4px .6px white;
+  }
+
+/*
+  ------ inicia sub menu
+*/
+  #barra-nav .menu-ul .li-sub .ul-sub {
+    display: none;
+    padding: 0;
+    list-style: none;
+    
+  }
+
+  #barra-nav .menu-ul .li-sub .ul-sub .li-natural {
+    width: 85%;
+    margin-left: .7rem;
+    padding: .5rem 0rem .5rem .7rem;
+    border-radius: 6%;
+    border-bottom: .1px solid white;
+  }
+
+  #barra-nav .menu-ul .li-sub:hover > .ul-sub {
+    display: block;
+  }
+/*  ---- Finaliza sub menu
+*/
+
+
+/*
+*/
+
+
+.slider-wrapper .nivo-directionNav .nivo-prevNav{
+  left: 1rem;
+  width: 50px;
+  height: 50px;
+}
+
+.slider-wrapper .nivo-directionNav .nivo-nextNav{
+  right: 1rem;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/*
+  ----- Finaliza Barra Navegacion Responsive 
+*/
+
+
+
+
+
+
+/*--- inicia main div contenido principal
+*/
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+  }
+
+
+/*--- inicia section
+*/
+.section-1 {
+    display: flex;/**/
+    flex-direction: column;/**/
+    align-items: center;/**/
+    justify-content: center;/**/
+    width: 97%;/**/
+    padding-bottom: 4rem;
+    border-radius: 10px;/**/
+    background-color: whitesmoke;
+}
+
+
+.containr{
+  display: flex;/**/
+    flex-direction: column;/**/
+    align-items: center;/**/
+    justify-content: center;/**/
+    width: 97%;/**/
+    background-color: rgb(214, 27, 52);
+}
+
+
+/*--- inicia primer article conel texto responsive web desing
+*/
+.section-1  .article-h2-web-desing{
+    display:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 675px;/*96%;*/
+    margin-top: 3rem;
+    margin-bottom: 3rem;/**/
+    border-radius: 5%;
+    background-color: white;
+  }
+
+  .section-1  .article-h2-web-desing .h2-web-desing{
+    width: 87%;/**/
+    /*max-width: 800px;/**/
+    font-size: 1.6em;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: .3px;
+    font-family: 'Syncopate-Regular';
+    margin: .5rem .2rem .5rem .2rem;/**/
+    padding: 1.8rem .7rem 1.4rem .7rem;
+    border-radius: 5%;
+    background-color: black;
+
+    text-transform: uppercase;
+  }
+/*------- finaliza primer article conel texto responsive web desing
+*/
+
+
+/*------- inicia segundo: En dante digital encontraras el diseno
+*/
+.section-1 .container .article-p-encontraras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;/*width: 96%;/**/
+    padding: 1.7rem 0rem 1.4rem 0rem;
+    border-radius: 5%;
+    background-color: white;
+  }
+
+  .section-1 .container .article-p-encontraras .p-encontraras {
+    width: 96%;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Syncopate-Regular';
+    letter-spacing: .3px;
+    padding: 0;
+    margin: .3rem;
+
+    text-transform: uppercase;
+  }
+/*--- finaliza segundo article: En dante digital encontraras el diseno
+*/
+
+
+/*---- inicia tercer article-img: proyectamos tus ideas en la realidad
+*/
+.section-1 .container .article-p-proyectamos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;/*width: 96%;/**/
+    height: auto;
+    padding: 1.7rem 0rem 1.4rem 0rem;
+    border-radius: 5%;
+    background-color: white;
+  }
+
+  .section-1 .container .article-p-proyectamos .p-proyectamos {
+    width: 96%;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Syncopate-Regular';
+    letter-spacing: .3px;
+    margin: .3rem;
+    padding: 0;
+
+    text-transform: uppercase;
+  }
+
+  .section-1 .container .article-p-proyectamos .figure-proyectamos {
+    width: 96%;
+    border-radius: 5%;
+    background-color: whitesmoke;
+  }
+
+  .section-1 .container .article-p-proyectamos .figure-proyectamos .img-proyectamos {
+    width: 96%;
+    height: 34rem;
+    border-radius: 5%;
+  }
+/*---- finaliza tercer article-img: proyectamos tus ideas en la realidad
+*/
+
+/*
+*/
+
+/*------- inicia cuarto article h2: Diseño web productivo circulo
+*/
+
+.section-2{
+  width: 97%;/**/
+  padding-top: 1.2rem ;/**/
+  padding-bottom: 1.2rem ;/**/
+  border-radius: 10px;/**/
+  margin-top: 4rem;
+  background-color: whitesmoke;/*F*/
+  /*background-color: forestgreen;/*V*/
+}
+
+
+.section-2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /*background-color: antiquewhite;/*V*/
+}
+
+
+.section-2  .container .article-web-productivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1050px;
+    /*width: 90%;/**/
+    padding: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 22%;
+    border: solid .1rem black;
+    background-color: white;
+  }
+
+  .section-2 .container .article-web-productivo .h2-web-productivo {
+    width: 87%;/**/
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+    letter-spacing: .3px;/**/
+    font-family: 'Syncopate-Regular';
+    margin: .5rem .2rem .5rem .2rem;
+    padding: 1.2rem .7rem 1rem .7rem;
+    border-radius: 22%;
+    background-color: black;
+
+    text-transform: uppercase;
+  }
+/*------- finaliza cuarto article h2: Diseño web productivo circulo
+*/
+
+
+/*------- inicia circulo article: h2 Diseño web inteligente 
+*/
+.section-2 .article-web-inteligente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 0;
+    margin-bottom: 3rem;
+    border-radius: 22%;
+    border: solid .1rem black;/**/
+    background-color: white;
+  }
+
+  .section-2 .article-web-inteligente .h2-web-inteligente {
+    width: 87%;
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+    letter-spacing: .3px;/**/
+    font-family: 'Syncopate-Regular';
+    margin: .5rem .2rem .5rem .2rem;
+    padding: 1.2rem .7rem 1rem .7rem;
+    border-radius: 22%;
+    background-color: black;
+
+    text-transform: uppercase;
+
+  }
+
+/*  --- finaliza circulo article: h2 Diseño web inteligente
+*/
+
+/*
+
+*/
+
+/*--- inicia div: imagen codigo + responsive web desing
+*/
+  .div-img-responsive-web {
+    width: 100%;
+    height: 26rem;
+    margin: 0;/**/
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;/*permite que la imagen ocupe
+     todo el largo y ancho de la pantalla*/
+    background-image: url("../img/img-008.jpg");
+    background-color: whitesmoke;
+  }
+
+  .div-img-responsive-web .h2-web-desing2 {
+    width: 100%;
+    font-size: 1.9em;
+    text-align: center;
+    color: white;
+    letter-spacing: .3px;
+    font-family: 'Syncopate-Regular';
+    margin-top: 11rem;
+
+    text-transform: uppercase;
+  }
+/*--- finaliza div: imagen codigo + responsive web desing
+*/
+
+
+/*------- inicia article: adaptamos tus ideas a cualquier dispositivo
+*/
+  .section-3 {
+    width: 100%;
+    margin-bottom: 4rem;/**/
+    background-color: whitesmoke;
+  }
+
+  .section-3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section-3 .article-h2-adaptamos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 26em;
+    padding: 0;
+    background-color: whitesmoke;    
+  }
+
+  .section-3 .article-h2-adaptamos .h2-web-adaptamos {
+    width: 100%;
+    font-size: 1.9em;
+    text-align: center;
+    color: black;
+    letter-spacing: .3px;
+    margin: .6rem;
+    font-family: 'Syncopate-Regular';
+
+  }
+  /*------- finaliza article: adaptamos tus ideas a cualquier dispositivo
+  */
+  
+
+  
+
+  /*--- inicia imagen adaptamos tus ideas a cualquier dispositivo
+  */
+  .div-img-adaptamos {
+    width: 100%;
+    height: 26rem;
+    margin-bottom: 4rem;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../img/img-05.png");
+    background-color: whitesmoke;
+  }
+/*--- inicia imagen adaptamos tus ideas a cualquier dispositivo
+*/
+
+
+
+
+
+/*------- inicia article: h2 figure img tu sitio al alcance de todos
+*/
+  .div-imagen-texto-alcance-todos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 26rem;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../img/img-06.png");
+    background-color: whitesmoke;
+  }
+
+  .div-imagen-texto-alcance-todos .h2-alcance-todos {
+    width: 100%;
+    font-size: 1.9em;
+    text-align: center;
+    color: black;
+    font-family: 'Syncopate-Regular';
+  }
+/*--- finaliza article h2 figure img tu sitio al alcance de todos
+*/
+
+
+/*--- inicia primer article conel texto responsive web desing
+*/
+.article-h2-web-desing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*width: 96%;/**/
+  max-width: 1000px;/*96%;/**/
+  margin-top: 4.2rem;/**/
+  margin-bottom: 4.2rem;
+  border-radius: 5%;
+  background-color: whitesmoke;
+}
+
+.article-h2-web-desing .h2-web-desing {
+  max-width: 770px;/*96%;/**/
+  /*width: 87%;/**/
+  font-size: 1.6em;
+  text-align: center;
+  color: white;
+  letter-spacing: .3px;
+  font-family: 'Syncopate-Regular';
+  margin: .5rem .2rem .5rem .2rem;
+  padding: 1.8rem .7rem 1.4rem .7rem;
+  border-radius: 5%;
+  background-color: black;
+}
+/*------- finaliza primer article conel texto responsive web desing
+*/
+
+
+
+/*------ inicia div: ultima imagen responsive 
+*/
+  .div-img-responsive {
+    width: 100%;
+    height: 26em;
+    /*margin-top: 4rem;/**/
+    /*margin-bottom: 4rem;/**/
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../img/img-07.png");
+    background-color: whitesmoke;
+  }
+/*------ finaliza div: ultima imagen responsive 
+*/
+
+
+/*--- inicia primer article conel texto responsive web desing
+*/
+
+.article-h2-web-desing3{
+  display:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 675px;/*96%;*/
+  margin-top: 3rem;
+  margin-bottom: 3rem;/**/
+  border-radius: 5%;
+  background-color: white;
+}
+
+.article-h2-web-desing3 .h2-web-desing3{
+  width: 87%;/**/
+  /*max-width: 800px;/**/
+  font-size: 1.6em;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: .3px;
+  font-family: 'Syncopate-Regular';
+  margin: .5rem .2rem .5rem .2rem;/**/
+  padding: 1.8rem .7rem 1.4rem .7rem;
+  border-radius: 5%;
+  background-color: black;
+
+  text-transform: uppercase;
+}
+/*------- finaliza primer article conel texto responsive web desing
+*/
+
+
+/*------ inicia article: en dante digital te invitamos
+*/
+  .div-en-dante-digital {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 26rem;/**/
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: contain;
+    background-image: url("../img/en-dante.jpg");
+    background-color: white;
+  }
+
+  .div-en-dante-digital .p-en-dante-digital {
+    width: 100%;
+    font-size: 1.3em;
+    text-align: center;
+    color: black;
+    font-family: 'Syncopate-Regular';
+    margin: .5rem;
+  }
+/*------ finaliza article: en dante digital te invitamos
+*/
+
+
+/*
+*/
+/*
+*/
+
+
+/*------ inicia footer
+*/
+  #footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/img-foot.jpg");
+  }
+
+  #footer-logo > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #footer-logo .div-dante-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    color: white;
+    font-family: 'Syncopate-Regular';
+    border-radius: 3rem;
+  }
+
+  #footer-logo .div-dante-services .section-dante-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 1em;
+    border-radius: 3rem;
+    /*border: solid rgba(255, 255, 255, 0.267) 0.1px;/**/
+    background-color: rgba(0, 0, 0, 0.185);/*V*/
+
+  }
+
+
+  /* inicia h2 dante digital*/
+  #footer-logo .div-dante-home-services .section-dante-services .h2-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /*font-size: 1.3em;/**/
+    padding: .8rem 0rem .6rem 0rem;
+    border-radius: 3rem;
+  }
+  /* termina h2 dante digital*/
+
+  /* inica h5 soporte ti, android, web desing*/
+  #footer-logo .div-dante-services .section-dante-services .h5-footer {
+    width: 64%;
+    text-align: center;
+    color: white;
+    /*font-size: .8em; /**/ 
+    padding: 1.1rem .2rem .8rem .2rem;
+    border-radius: 3rem;
+    /*border: solid 1px white;/**/
+    background-color: rgba(29, 56, 67, 0.623);/**/
+  }
+
+  #footer-logo .div-dante-services .section-dante-services .h5-footer a {
+    color: white;
+    text-decoration: none;
+  }
+/* termina h5 soporte ti, android, web desing*/
+
+/* inicia h5 bulma, sass*/
+  #footer-logo .section-bulma-sass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0;
+  }
+  
+
+  
+  #footer-logo .section-bulma-sass .h5b-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 1rem 0em .6rem 0em;
+    border-radius: 6%;
+    color: white;
+    background-color: rgba(29, 56, 67, 0.623);/**/
+  }
+
+  #footer-logo .section-bulma-sass .h5b-footer a {
+   color: white;
+   text-decoration: none;
+  }
+  /* finaliza h5 bulma, sass*/
+
+
+ /*  ----- inicia figure e img de linux*/
+  #footer-logo .figure-img-linux {
+    display: flex;/**/
+    flex-direction: row;/**/
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 100%;/**/
+    /*width: 100px;/**/
+    /*height: 100px;/**/
+    margin-bottom: -1.3rem;/**/
+    /*border: solid 3px rgba(255, 255, 255, 0.247);/**/
+    /*background-color: rgba(29, 56, 67, 0.541);/*Visualizador/**/
+  }
+
+  #footer-logo .figure-img-linux .img-linux {
+    width: 100%;
+    height: 4rem;
+  }
+/*
+  ----- finaliza figure e img de linux
+*/
+
+
+
+
+/*
+  ------ inicia h5 derechos reservados
+*/
+  .h6-reservados {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Syncopate-Regular';
+    margin-bottom: 1em;
+  }
+
+  .h6-reservados .h6-footer-span {
+    color: #0756d4;
+  }
+/*
+  ------ Finaliza h5 derechos reservados
+*/
+

@@ -1,0 +1,400 @@
+/* --- INICIAN TIPOS DE LETRA PARA FOOTER Y CONTENIDO PRINCIPAL 
+*/
+
+/* --- FUENTE PARA LETRA DEL CONTENIDO PRINCIPAL Y EL FOOTER
+*/
+@font-face {
+  font-family: 'Syncopate-Regular';
+  src: url('../syncopate/Syncopate-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* --- FUENTE PARA EL MENU DE NAVEGACION 
+*/
+@font-face {
+  font-family: 'Syncopate-Bold';
+  src: url('../syncopate/Syncopate-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* --- FINALIZA TIPOS DE LETRA PARA FOOTER Y CONTENIDO PRINCIPAL
+*/
+
+/*
+*/
+
+/* ---  INICIA HEADER-NAV-SLIDE: ESTA ES LA ETIQUETA HEADER. Y SE CONFIGURO
+        UNA CLASS LLAMADA HEADER-NAV-SLIDE --- */
+.header-nav-slide {
+  margin: 0;
+  padding: 0;
+  /*VISUALIZADOR*/
+}
+
+/* --- FINALIZA HEADER-NAV-SLIDE  
+*/
+
+/*
+*/
+
+/* --- INICIA BARRA DE NAVEGACION Y SU CONTENIDO 
+*/
+/* ---  INICIA BOTON CONTENEDOR QUE ALMACENA LA IMAGEN DE LA
+        BARRA DE NAVEGACION Y SU CONTENIDO --- */
+  #menu-icono { 
+    display: block; 
+    width: 100%;
+    height: 2.1rem;
+    padding: .4rem 0rem .1rem 0rem;
+    /*VISUALIZADOR*/
+  }
+
+/* ---  INICIA id="MENU-ICONO": LA IMAGEN CON LINEAS HORIZONTALES
+        BOTON DE NAVEGACION --- */
+  #menu-icono img {
+    width: 1.7rem;
+    height: 1.6rem;
+    margin: .2rem 0rem 0rem .5rem;
+    border-radius: 100px;
+  }
+/* ---  FINALIZA BOTON CONTENEDOR QUE ALMACENA LA IMAGEN DE LA
+        BARRA DE NAVEGACION Y SU CONTENIDO --- */
+
+/*
+*/
+
+/* --- INICIA BARRA-NAV: ES EL CONTENEDOR DE LOS BOTONES MENUS DE NAV
+*/
+  #barra-nav {
+    display: none;/*Oculta el contenido de la barra denavegacion*/
+    width: 100%;
+    background-color: rgba(1, 0, 12, 0.963);/*Fondo*/
+  }
+
+  #barra-nav > div {
+    width: 100%;
+  }
+
+  #barra-nav .menu-ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;/*elimina el espacio top permitiendo subir ul completo*/
+    padding: 0px;/*con esta propiedad se quita el espacio del ul*/
+    list-style: none;/*Con esta propiedad quitamos los circulos del ul*/
+    /*visualizador*/
+  }
+
+  #barra-nav .menu-ul .li-borde {
+  /*#barra-nav .menu-ul .li-borde (LINEA ORIGINAL)*/
+
+    width: 95%;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    padding: .3rem 0rem .5rem .7rem;
+  }
+
+  #barra-nav .menu-ul .li-borde {
+    width: 80%;
+    border-radius: .3rem;/*V*/
+    border-bottom: .1px solid white;/*V*/
+  }
+
+  #barra-nav .menu-ul .li-borde a {
+    font-size: .7em;
+    font-family: 'Syncopate-Bold';
+    color: rgb(18, 124, 246);
+    text-decoration: none;/*Con esta propiedad se elimina el subrayado de los li*/
+    text-shadow: .6px .4px .6px white;
+  }
+
+/*
+  ------ inicia sub menu
+*/
+  #barra-nav .menu-ul .li-sub .ul-sub {
+    display: none;
+    padding: 0;
+    list-style: none;
+  }
+
+  #barra-nav .menu-ul .li-sub .ul-sub .li-natural {
+    width: 85%;
+    margin-left: .7rem;
+    padding: .5rem 0rem .5rem .7rem;
+    border-radius: 6%;
+    border-bottom: .1px solid white;
+  }
+
+  #barra-nav .menu-ul .li-sub:hover > .ul-sub {
+    display: block;
+  }
+/*  ---- Finaliza sub menu
+*/
+
+
+/*
+*/
+
+
+
+/*
+  ----- INICIA Barra Navegacion Responsive 
+*/
+
+.slider-wrapper .nivo-directionNav .nivo-prevNav{
+  left: 1rem;
+  width: 50px;
+  height: 50px;
+  /*background-color: rgb(99, 95, 160);  /*VISUALIZADOR*/
+}
+
+
+.slider-wrapper .nivo-directionNav .nivo-nextNav{
+  right: 1rem;
+  width: 50px;
+  height: 50px;
+  /*background-color: rgb(99, 95, 160);  /*VISUALIZADOR*/
+}
+
+/*
+  ----- Finaliza Barra Navegacion Responsive 
+*/
+
+
+/*
+*/
+
+
+/*--- inicia main div contenido principal
+*/
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+  }
+
+
+/*--- inicia section
+*/
+.section-1 {
+    display: flex;/**/
+    flex-direction: column;/**/
+    align-items: center;/**/
+    justify-content: center;/**/
+    width: 97%;/**/
+    padding-bottom: 4rem;
+    border-radius: 10px;/**/
+    background-color: whitesmoke;
+}
+
+
+.containr{
+  display: flex;/**/
+    flex-direction: column;/**/
+    align-items: center;/**/
+    justify-content: center;/**/
+    width: 97%;/**/
+    /*background-color: rgb(214, 27, 52);/**/
+}
+
+
+/*--- inicia primer article conel texto responsive web desing
+*/
+.section-1 .container .article-h2-web-desing{
+    display:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 675px;/*96%;*/
+    margin-top: 3rem;
+    margin-bottom: 3rem;/**/
+    border-radius: 5%;
+    /*background-color: white;/**/
+  }
+
+  .section-1 .container .article-h2-web-desing .h2-web-desing{
+    width: 87%;/**/
+    /*max-width: 800px;/**/
+    font-size: 1.6em;
+    text-align: center;
+    /*color: whitesmoke;/**/
+    letter-spacing: .3px;
+    font-family: 'Syncopate-Regular';
+    margin: .5rem .2rem .5rem .2rem;/**/
+    padding: 1.8rem .7rem 1.4rem .7rem;
+    border-radius: 5%;
+    /*background-color: black;/*visualizador*/
+
+    text-transform: uppercase;
+  }
+/*------- finaliza primer article conel texto responsive web desing
+*/
+
+
+
+/*---- finaliza tercer article-img: proyectamos tus ideas en la realidad
+*/
+
+/*
+*/
+ 
+
+/*------- inicia circulo article: h2 Diseño web inteligente 
+*/
+
+
+/* INICIA FOOTER LOGO
+*/
+#footer-logo > div {
+  background-color: rgb(0, 0, 0);/*V*/
+}
+
+/* FINALIZA FOOTER LOGO
+*/
+
+/*
+*/
+
+/* INICIA FOOTERLOGO Y DIV
+*/  
+#footer-logo > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /*background-color: darkseagreen;/**/
+    /*background-color: rgb(0, 0, 0);/*V*/
+}
+/* FINALIZA FOOTERLOGO Y DIV
+*/
+
+/*
+*/
+
+/*INICIA FOOTER-LOGO .DIV-DANTE-SERVICES
+*/
+#footer-logo .div-dante-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    color: white;/**/
+    font-family: 'Syncopate-Regular';
+    border-radius: 3rem;
+   /*background-color: rgba(73, 71, 71, 0);/*V*/
+}
+/*FINALIZA FOOTER-LOGO .DIV-DANTE-SERVICES
+*/
+
+/*
+*/
+
+/* INICIA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES 
+*/
+#footer-logo .div-dante-services .section-dante-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 1em;
+    border-radius: 3rem;
+    border: solid rgba(255, 255, 255, 0.692) 0.1px;/*V*/
+    /*background-color: rgba(0, 0, 0, 0.185);/*V*/
+}
+/* FINALIZA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES 
+*/
+
+/*
+*/
+
+/* INICIA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES .H2-FOOTER
+*/   
+#footer-logo .div-dante-home-services .section-dante-services .h2-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 9em;/**/
+    padding: .8rem 0rem .6rem 0rem;
+    border-radius: 3rem;
+    border: solid rgba(255, 255, 255, 0.267) 0.1px;/**/
+  }
+/* FINALIZA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES .H2-FOOTER
+*/
+
+/*
+*/
+
+/* INICIA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES .H5-FOOTER
+*/  #footer-logo .div-dante-services .section-dante-services .h5-footer {
+    width: 64%;
+    text-align: center;
+    color: white;
+    font-size: 1.1em; /**/ 
+    padding: 1.3rem .2rem .8rem .2rem;
+    border-radius: 3rem;
+    /*border: solid 1px white;/**/
+    background-color: rgba(29, 56, 67, 0.623);/**/
+  }
+
+
+  #footer-logo .div-dante-services .section-dante-services .h5-footer a {
+    color: white;
+    text-decoration: none;
+  }
+  /*FINALIZA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES .H2-FOOTER
+  */
+
+/*
+*/
+
+/* INICIA FOOTERLOGO .FIGURE-IMG-LINUX
+*/
+ #footer-logo .figure-img-linux {
+    display: flex;/**/
+    flex-direction: row;/**/
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 100%;/**/
+    /*width: 100px;/**/
+    /*height: 100px;/**/
+    margin-bottom: -1.3rem;/**/
+    /*border: solid 3px rgba(255, 255, 255, 0.247);/**/
+    /*background-color: rgba(29, 56, 67, 0.541);/*Visualizador/**/
+  }
+
+  #footer-logo .figure-img-linux .img-linux {
+    width: 100%;
+    height: 4rem;
+  }
+
+/* FINALIZA FOOTERLOGO .FIGURE-IMG-LINUX
+*/  
+
+/*
+*/
+
+/*--- INICIA .H6-RESERVADOS (DERECHOS RESERVADOS)
+*/
+  .h6-reservados {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Syncopate-Regular';
+    margin-bottom: 1em;
+  }
+
+  .h6-reservados .h6-footer-span {
+    color: #0756d4;
+  }
+/*--- FINALIZA .H6-RESERVADOS (DERECHOS RESERVADOS)
+*/
+
