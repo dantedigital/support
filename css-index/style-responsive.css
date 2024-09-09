@@ -62,9 +62,10 @@
 @media screen and (min-width: 1100px) {/*@media screen and (min-width: 1320px)*/
 
 #footer-logo .div-dante-services{
-height: 800px;
+max-width: 1400px;
+height: 500px;/**/
 justify-content:space-around;
-/*VISUALIZADOR*/
+/*background-color: rgb(255, 123, 0);/*VISUALIZADOR*/
 }
 
 #footer-logo .h5-footer a {
@@ -79,26 +80,36 @@ text-decoration: none;
 /* inicia h2 dante digital*/
 #footer-logo .div-dante-services .section-dante-services {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;/**/
+  
+  /*justify-content: center;/**/
   /*justify-content: space-around;/**/
-  justify-content: space-between;/**/
+  /*justify-content: space-between;/**/
+  justify-content: space-evenly;
+  /*justify-content: flex-end;
   /*align-content:stretch;/**/
+  
+  width: 90%;
   /*background-color: aqua;/*visualozador*/
 }
 /* ------------------------- */
 
 #footer-logo .div-dante-services .h2-footer {
-max-width: 300px;
-height:50px;
+  display: flex;
+  flex-direction: row;/**/
+  align-items: center;
+  /*max-width: 700px;/**/
+  height:50px;
 
-align-content: center;
-text-align: center;
-font-size: 1.7em;/**/
-margin: .7rem .7rem;/**/
-border: solid 1px white;/**/
-border-radius: 9px;/**/
-/*background-color: aqua;/*visualizador*/
-background-color: rgba(29, 56, 67, 0.623);/**/
+  align-content: center;
+  text-align: center;
+  font-size: 1.9em;/**/
+  padding: 1.3rem .2rem .8rem .2rem;
+  /*margin: .7rem .7rem;/**/
+  /*border: solid 1px white;/**/
+  border-radius: 9px;/**/
+  /*background-color: aqua;/*visualizador*/
+/*background-color: rgba(29, 56, 67, 0.623);/**/
 }
 
 /* termina h2 dante digital*/
@@ -111,11 +122,12 @@ display: flex;
 align-items: center;
 justify-content: center;
 
-margin-right: 2em;
 
-width: 35%;
-height: 130px;
-/*text-align: center;/**/
+margin: 0px;/**/
+
+width: 200px;/**/
+height: 150px;/**/
+text-align: center;/**/
 /*font-size: 1.1em; /**/ 
 /*padding: 1.3rem .2rem .8rem .2rem;*/
 border-radius: 100%;
@@ -143,7 +155,7 @@ text-decoration: none;
     /*margin-left: 4.6rem;/**/
     /*align-content: center;/**/
     /*text-align: center;/**/
-    font-size: 1.7em;/**/
+    /*font-size: 1.7em;/**/
     
     /*border-radius: 9px;/**/
     /*background-color: aqua;/**/
