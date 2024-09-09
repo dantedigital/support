@@ -243,14 +243,14 @@
 */
  
 
-/*------- inicia circulo article: h2 Diseño web inteligente 
-*/
 
-
-/* INICIA FOOTER LOGO
+/* --- INICIA CONTENIDO FOOTER 
 */
-#footer-logo > div {
-  background-color: rgb(0, 0, 0);/*V*/
+/* --- INICIA ETIQUETA FOOTER 
+*/
+#footer-logo {
+  
+  background-color: rgb(0, 0, 0);/*V*/  
 }
 
 /* FINALIZA FOOTER LOGO
@@ -268,7 +268,7 @@
     justify-content: center;
     width: 100%;
     /*background-color: darkseagreen;/**/
-    /*background-color: rgb(0, 0, 0);/*V*/
+    /*background-color: rgb(231, 36, 36);/*V*/
 }
 /* FINALIZA FOOTERLOGO Y DIV
 */
@@ -283,11 +283,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 98%;
+    
+    width: 80%;
+    margin-top: 2rem;/**/
     color: white;/**/
     font-family: 'Syncopate-Regular';
     border-radius: 3rem;
-   /*background-color: rgba(73, 71, 71, 0);/*V*/
+    /*border: solid rgba(255, 255, 255, 0.692) 0.1px;/*V*/
+    /*background-color: rgba(0, 110, 255, 0.432);/*V*/
 }
 /*FINALIZA FOOTER-LOGO .DIV-DANTE-SERVICES
 */
@@ -302,11 +305,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    margin-top: 1em;
+    width: 90%;/*width: 90%;*/
+    /*margin-top: 1em;/**/
     border-radius: 3rem;
-    border: solid rgba(255, 255, 255, 0.692) 0.1px;/*V*/
-    /*background-color: rgba(0, 0, 0, 0.185);/*V*/
+    border: solid rgba(255, 255, 255, 0.692) 0.1px;/**/
+    /*background-color: rgba(202, 195, 99, 0.301);/*visualizador*/
 }
 /* FINALIZA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES 
 */
@@ -316,17 +319,20 @@
 
 /* INICIA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES .H2-FOOTER
 */   
-#footer-logo .div-dante-home-services .section-dante-services .h2-footer {
+#footer-logo .section-dante-services .h2-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
     width: 100%;
-    font-size: 9em;/**/
-    padding: .8rem 0rem .6rem 0rem;
+    /*margin-top: 1rem;/**/
+    font-size: 1.5em;/**/
+    /*padding: .8rem 0rem .6rem 0rem;/**/
     border-radius: 3rem;
-    border: solid rgba(255, 255, 255, 0.267) 0.1px;/**/
+    /*background-color: aqua;/**/
   }
+
 /* FINALIZA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES .H2-FOOTER
 */
 

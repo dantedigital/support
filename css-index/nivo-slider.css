@@ -17,12 +17,12 @@
 	/*background-color: aqua; /*V*/
 }
 
-.nivoSlider img { /* altera las imagenes del slaide*/
+.nivoSlider img { /*altera las imagenes del slaide nivoSlider img*/
 	position:absolute;
 	top:0px;
 	left:0px;
 	max-width: none;
-	max-height: 680px;
+	max-height: 800px;
 }
 
 .nivo-main-image {
@@ -44,7 +44,7 @@
 	z-index:6;
 	display:none;
 	/*background:white; /**/
-	background: darkseagreen;/*V*/
+	/*background: rgb(26, 187, 26);/*V*/
 	filter:alpha(opacity=0); 
 	opacity:0;
 }

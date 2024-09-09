@@ -32,7 +32,7 @@
         kids.each(function() {
             var child = $(this);
             var link = '';
-            if(!child.is('img')){
+            if(!child.is('.img')){
                 if(child.is('a')){
                     child.addClass('nivo-imageLink');
                     link = child;
@@ -641,7 +641,7 @@
         boxRows: 5,//4 predeterminado
         animSpeed: 505,
         pauseTime: 3100,
-        startSlide: 0,
+        startSlide: 1,//0 predeterminado
         directionNav: true,
         controlNav: true,
         controlNavThumbs: false,
