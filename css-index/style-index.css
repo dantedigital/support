@@ -284,7 +284,7 @@
     justify-content: center;
     
    width: 100%;
-    margin-top: 4rem;/**/
+    margin-top: 2.5rem;/**/
     color: white;/**/
     font-family: 'Syncopate-Regular';
     border-radius: 3rem;
@@ -304,9 +304,9 @@
     align-items: center;
     justify-content: center;
     
-    width: 70%;/*width: 90%;*/
+    width: 78%;/*width: 90%;*/
     border-radius: 3rem;
-    padding: 2rem;
+    padding: 1.7rem;
     border: solid rgba(255, 255, 255, 0.692) 0.1px;/**/
     /*background-color: rgba(243, 228, 14, 0.877);/*visualizador*/
 }
@@ -324,10 +324,10 @@
     align-items: center;/**/
     justify-content: center;/**/
     
-    width: 100%;
-    /*margin-top: 1rem;/**/
-    font-size: 1.4em;/**/
-    padding: .8rem 0rem .6rem 0rem;/**/
+    /*width: 100%;/**/
+    margin-top: 0rem;/**/
+    font-size: 1.6em;/**/
+    /*padding: .8rem 0rem .6rem 0rem;/**/
     border-radius: 3rem;
     /*background-color: aqua;/**/
   }
@@ -340,12 +340,12 @@
 
 /* INICIA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES .H5-FOOTER
 */  #footer-logo .div-dante-services .section-dante-services .h5-footer {
-    width: 70%;
+    width: 69%;
     text-align: center;
     color: white;
     font-size: 1.1em; /**/
     margin: 1.7rem; 
-    padding: 1.3rem .2rem .7rem .2rem;
+    padding: 1.3rem .2rem .8rem .2rem;
     border-radius: 3rem;
     /*border: solid 1px white;/**/
     background-color: rgba(29, 56, 67, 0.623);/**/
@@ -372,7 +372,7 @@
     /*border-radius: 100%;/**/
     /*width: 100px;/**/
     /*height: 100px;/**/
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     margin-bottom: -1.3rem;/**/
     /*border: solid 3px rgba(255, 255, 255, 0.247);/**/
     /*background-color: rgba(29, 56, 67, 0.541);/*Visualizador/**/
