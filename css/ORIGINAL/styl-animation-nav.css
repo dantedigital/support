@@ -1,0 +1,4 @@
+#barra-nav .menu-ul[data-animation="center"] a::before {
+  transform-origin: center;
+}
+

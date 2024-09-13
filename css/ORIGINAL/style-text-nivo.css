@@ -2,7 +2,7 @@
 
 .nivo-caption {
    display: flex;/**/
-	/*flex-direction: column;/**/
+	flex-direction: column;/**/
 	align-content: center;/**/
     height: 100%;/**/
     /*background-color: rgba(0, 255, 255, 0.432);/**/
@@ -11,25 +11,25 @@
 .div-caption{/*se tiene que centrar este texto*/
     display: flex;/**/
     flex-direction: column;/**/
-    /*align-items: center;/**/
-    /*align-content: center;/**/
+    align-items: center;/**/
+    align-content: center;/**/
     justify-content: center;/**/
 
     width: 100%;
-    height: 70%;
-    text-align: center;
+    /*height: 70%;/**/
+    text-align:end;
     font-family: 'Syncopate-Regular';
-    margin: .5rem .5rem .5rem 0rem; /**/
+    /*margin: .5rem .5rem .5rem 0rem; /**/
     /*margin: .5rem .5rem .5rem -.5rem;/**/
     /*Background-color: rgba(175, 47, 47, 0.452);/**/
 }
 
 
 .div-caption .p-caption {
-    font-size: 1.6em;
+    font-size: 1.8em;
     padding: .7rem .3rem .1rem .3rem;
     /*margin: 2rem 0rem 2rem 0rem;/**/
-    /*background-color: rgba(170, 165, 233, 0.185);/**/
+    /*background-color: rgba(170, 165, 233, 0.692);/**/
 }
 
 /*

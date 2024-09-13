@@ -30,6 +30,7 @@
 .header-nav-slide {
   margin: 0;
   padding: 0;
+ /*background-color: aqua;/**/
   /*VISUALIZADOR*/
 }
 
@@ -39,123 +40,24 @@
 /*
 */
 
-/* --- INICIA BARRA DE NAVEGACION Y SU CONTENIDO 
-*/
-/* ---  INICIA BOTON CONTENEDOR QUE ALMACENA LA IMAGEN DE LA
-        BARRA DE NAVEGACION Y SU CONTENIDO --- */
-  #menu-icono { 
-    display: block; 
-    width: 100%;
-    height: 2.1rem;
-    padding: .4rem 0rem .1rem 0rem;
-    /*VISUALIZADOR*/
-  }
-
-/* ---  INICIA id="MENU-ICONO": LA IMAGEN CON LINEAS HORIZONTALES
-        BOTON DE NAVEGACION --- */
-  #menu-icono img {
-    width: 1.7rem;
-    height: 1.6rem;
-    margin: .2rem 0rem 0rem .5rem;
-    border-radius: 100px;
-  }
-/* ---  FINALIZA BOTON CONTENEDOR QUE ALMACENA LA IMAGEN DE LA
-        BARRA DE NAVEGACION Y SU CONTENIDO --- */
-
-/*
-*/
-
-/* --- INICIA BARRA-NAV: ES EL CONTENEDOR DE LOS BOTONES MENUS DE NAV
-*/
-  #barra-nav {
-    display: none;/*Oculta el contenido de la barra denavegacion*/
-    width: 100%;
-    background-color: rgba(1, 0, 12, 0.963);/*Fondo*/
-  }
-
-  #barra-nav > div {
-    width: 100%;
-  }
-
-  #barra-nav .menu-ul {
-    width: 100%;
-    height: 100%;
-    margin-top: 0;/*elimina el espacio top permitiendo subir ul completo*/
-    padding: 0px;/*con esta propiedad se quita el espacio del ul*/
-    list-style: none;/*Con esta propiedad quitamos los circulos del ul*/
-    /*visualizador*/
-  }
-
-  #barra-nav .menu-ul .li-borde {
-  /*#barra-nav .menu-ul .li-borde (LINEA ORIGINAL)*/
-
-    width: 95%;
-    margin-top: .5rem;
-    margin-left: 1rem;
-    padding: .3rem 0rem .5rem .7rem;
-  }
-
-  #barra-nav .menu-ul .li-borde {
-    width: 80%;
-    border-radius: .3rem;/*V*/
-    border-bottom: .1px solid white;/*V*/
-  }
-
-  #barra-nav .menu-ul .li-borde a {
-    font-size: .7em;
-    font-family: 'Syncopate-Bold';
-    color: rgb(18, 124, 246);
-    text-decoration: none;/*Con esta propiedad se elimina el subrayado de los li*/
-    text-shadow: .6px .4px .6px white;
-  }
-
-/*
-  ------ inicia sub menu
-*/
-  #barra-nav .menu-ul .li-sub .ul-sub {
-    display: none;
-    padding: 0;
-    list-style: none;
-  }
-
-  #barra-nav .menu-ul .li-sub .ul-sub .li-natural {
-    width: 85%;
-    margin-left: .7rem;
-    padding: .5rem 0rem .5rem .7rem;
-    border-radius: 6%;
-    border-bottom: .1px solid white;
-  }
-
-  #barra-nav .menu-ul .li-sub:hover > .ul-sub {
-    display: block;
-  }
-/*  ---- Finaliza sub menu
-*/
-
-
-/*
-*/
-
-
-
 /*
   ----- INICIA Barra Navegacion Responsive 
 */
 
-.slider-wrapper .nivo-directionNav .nivo-prevNav{
+/*.slider-wrapper .nivo-directionNav .nivo-prevNav{
   left: 1rem;
   width: 50px;
   height: 50px;
-  /*background-color: rgb(99, 95, 160);  /*VISUALIZADOR*/
-}
+  background-color: rgb(99, 95, 160);  VISUALIZADOR
+}*/
 
 
-.slider-wrapper .nivo-directionNav .nivo-nextNav{
+/*.slider-wrapper .nivo-directionNav .nivo-nextNav{
   right: 1rem;
   width: 50px;
   height: 50px;
-  /*background-color: rgb(99, 95, 160);  /*VISUALIZADOR*/
-}
+  background-color: rgb(99, 95, 160);  VISUALIZADOR
+}*/
 
 /*
   ----- Finaliza Barra Navegacion Responsive 
@@ -188,7 +90,7 @@
     width: 97%;/**/
     padding-bottom: 4rem;
     border-radius: 10px;/**/
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;/**/
 }
 
 

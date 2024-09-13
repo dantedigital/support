@@ -12,17 +12,22 @@
 .nivoSlider {/* este es el contenedor dondedel*/
 	position:relative;
 	width:100%;
-	height: auto;/*auto*/
+	/*max-height: 780px;/**/
+	/*height: auto;/*auto*/
 	overflow: hidden;
 	/*background-color: aqua; /*V*/
 }
 
-.nivoSlider img { /*altera las imagenes del slaide nivoSlider img*/
-	position:absolute;
-	top:0px;
-	left:0px;
-	max-width: none;
-	max-height: 800px;
+/* -- ALTERA LAS IMAGENES DEL SLIDE
+*/
+.nivoSlider img { 
+	position:absolute;/**/ 
+	top:0px;/**/
+	left:0px;/**/
+	/*width: 100%;/**/
+	max-width: none;/**/
+	/*height: 780px;/**/
+	/*max-height: 850px;/**/
 }
 
 .nivo-main-image {
@@ -50,13 +55,14 @@
 }
 
 
-/* The slices and boxes in the Slider */
-.nivo-slice {
-	display:block;
-	position:absolute;
-	z-index:5;
-	height:100%;
-	top:0;
+/* The slices and boxes in the Slider .nivo-slice */
+.nivo-slice {/*.nivo-slice*/
+	display:block;/**/
+	position:absolute;/**/
+	z-index:5;/**/
+	height:100%;/**/
+	top:0;/**/
+	/*background-color: aqua;/**/
 }
 
 
@@ -117,8 +123,3 @@
 /*
 
 */
-
-
-
-
-

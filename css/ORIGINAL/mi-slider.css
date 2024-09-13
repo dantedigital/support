@@ -10,7 +10,7 @@
 
 .theme-mi-slider .nivoSlider{
 	position:relative;
-
+	/*background-color: violet;/**/
 	
 }
 
@@ -24,16 +24,27 @@
 .nivo-controlNav {
 	display: flex;
 	justify-content: center;
+	
+	height: -1rem;
+	/*background-color: aqua;/*VISUALIZADOR*/
 }
 
-.theme-mi-slider .nivo-control{ /*control de los 3 circulos*/
+/*INICIA CONTROL DE LOS 3 CIR CULOS*/
+.theme-mi-slider {
+	/*height: 1em;/**/
+	/*padding: 0px;/**/
+	/*background-color: brown;/*VISUALIZADOR*/
+}
+
+
+.theme-mi-slider .nivo-control { 
 	display: block;
-	width: 1rem;
-	height: 1rem;
-	border-radius: 50%;
-	background: #545454;
-	margin: 3px;
-	text-indent: -9999px
+	width: 1rem;/**/
+	height: 1rem;/**/
+	border-radius: 50%;/**/
+	background: #545454;/*ORIGINAL*/
+	margin: 3px;/**/
+	text-indent: -9999px/**/
 }
 
 .theme-mi-slider .nivo-control:hover{
