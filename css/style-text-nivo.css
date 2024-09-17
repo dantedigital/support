@@ -1,4 +1,8 @@
+
+
+
 .nivo-caption {
+    text-align: right;
     align-content: center;/**/
     height: 100%;/**/
     /*background-color: rgba(0, 255, 255, 0.432);/*VISUALIZADOR*/
@@ -9,7 +13,7 @@
     justify-content: center;/**/
 
     width: 100%;/**/
-    text-align:center;/**/
+    text-align:right;/**/
     font-family: 'Syncopate-Regular';/**/
     /*background-color: rgba(175, 47, 47, 0.452);/*VISUALIZADOR*/
 }

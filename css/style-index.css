@@ -133,6 +133,11 @@
 
     text-transform: uppercase;
   }
+
+  .container .article-h2-web-desing .text-principal {
+    text-align: center;
+    font-family: 'Syncopate-Regular';
+  }
 /*------- finaliza primer article conel texto responsive web desing
 */
 
@@ -233,6 +238,8 @@
     border-radius: 3rem;
     /*background-color: aqua;/**/
   }
+
+
 
 /* FINALIZA FOOTER-LOGO .DIV-DANTE-SERVICES .SECTION-DANTE-SERVICES .H2-FOOTER
 */
