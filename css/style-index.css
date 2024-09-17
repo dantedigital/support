@@ -30,8 +30,7 @@
 .header-nav-slide {
   margin: 0;
   padding: 0;
- /*background-color: aqua;/**/
-  /*VISUALIZADOR*/
+ /*background-color: aqua;/*VISUALIZADOR*/
 }
 
 /* --- FINALIZA HEADER-NAV-SLIDE  
@@ -40,106 +39,85 @@
 /*
 */
 
-/*
-  ----- INICIA Barra Navegacion Responsive 
-*/
-
-/*.slider-wrapper .nivo-directionNav .nivo-prevNav{
-  left: 1rem;
-  width: 50px;
-  height: 50px;
-  background-color: rgb(99, 95, 160);  VISUALIZADOR
-}*/
-
-
-/*.slider-wrapper .nivo-directionNav .nivo-nextNav{
-  right: 1rem;
-  width: 50px;
-  height: 50px;
-  background-color: rgb(99, 95, 160);  VISUALIZADOR
-}*/
-
-/*
-  ----- Finaliza Barra Navegacion Responsive 
-*/
-
-
-/*
-*/
-
 
 /*--- inicia main div contenido principal
 */
   main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    justify-content: center;
-    width: 100%;
-    background-color: white;
+    display: flex;/**/
+    flex-direction: column;/**/
+    align-items: center;/**/
+    justify-content: center;/**/
+    width: 100%;/**/
+    /*background-color: rgb(18, 228, 63);/*VISUALIZADOR*/
   }
 
 
 /*--- inicia section
 */
 .section-1 {
-    display: flex;/**/
-    flex-direction: column;/**/
-    align-items: center;/**/
-    justify-content: center;/**/
-    width: 97%;/**/
-    padding-bottom: 4rem;
-    border-radius: 10px;/**/
-    /*background-color: whitesmoke;/**/
+   display: flex;/**/
+   justify-content: center;/**/
+   width: 90%;/**/
+   height: 300px;/**/
+   /*background-color: rgb(136, 15, 218);/**/
 }
 
 
-.containr{
-  display: flex;/**/
-    flex-direction: column;/**/
-    align-items: center;/**/
-    justify-content: center;/**/
-    width: 97%;/**/
-    /*background-color: rgb(214, 27, 52);/**/
-}
-
+/*
+*/
 
 /*--- inicia primer article conel texto responsive web desing
 */
-.section-1 .container .article-h2-web-desing{
-    display:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 675px;/*96%;*/
-    margin-top: 3rem;
-    margin-bottom: 3rem;/**/
-    border-radius: 5%;
-    /*background-color: white;/**/
+
+.section-1 .article-bienvenidos {
+    display: flex;/**/
+    justify-content: center;/**/
+    width: 300px;/**/
+    /*background-color: rgb(218, 32, 32);/*VISUALIZADOR*/
   }
 
-  .section-1 .container .article-h2-web-desing .h2-web-desing{
-    width: 87%;/**/
-    /*max-width: 800px;/**/
-    font-size: 1.6em;
-    text-align: center;
-    /*color: whitesmoke;/**/
-    letter-spacing: .3px;
-    font-family: 'Syncopate-Regular';
-    margin: .5rem .2rem .5rem .2rem;/**/
-    padding: 1.8rem .7rem 1.4rem .7rem;
-    border-radius: 5%;
-    /*background-color: black;/*visualizador*/
-
+  .section-1 .article-bienvenidos .h2-bienvenidos {
+    font-size: 1.6em;/**/
+    text-align: center;/**/
+    letter-spacing: .3px;/**/
     text-transform: uppercase;
+    /*background-color: rgb(167, 189, 45);/*visualizador*/
   }
 
-  .container .article-h2-web-desing .text-principal {
-    text-align: center;
+  .section-1 .article-bienvenidos, .text-principal {
     font-family: 'Syncopate-Regular';
   }
+
 /*------- finaliza primer article conel texto responsive web desing
 */
+
+/*
+*/
+
+/*--- inicia primer article conel texto responsive web desing
+*/
+
+.section-2 .article-texto {
+  display: flex;/**/
+  justify-content: center;/**/
+  max-width: 600px;/**/
+  margin: 20px 20px 50px 20px;/*superior, derecho, inferior, izquierdo*/ 
+  /*max-width: 570px;/**/
+  /*background-color: rgb(218, 32, 32);/*VISUALIZADOR*/
+}
+
+.section-2 .article-texto .text-principal {
+  width: 87%;/**/
+  text-align: center;/**/
+  letter-spacing: .3px;/**/
+  text-transform: uppercase;
+  /*background-color: rgb(167, 189, 45);/*visualizador*/
+}
+
+/*------- finaliza primer article conel texto responsive web desing
+*/
+
+
 
 
 
@@ -230,7 +208,6 @@
     flex-direction: column;/**/
     align-items: center;/**/
     justify-content: center;/**/
-    
     /*width: 100%;/**/
     margin-top: 0rem;/**/
     font-size: 1.6em;/**/
