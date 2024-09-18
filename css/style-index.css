@@ -64,12 +64,12 @@
 .section-1 .article-bienvenidos {
   display: flex;/**/
   justify-content: center;/**/
+  margin-top: 4rem;
   max-width: 500px;/**/
   /*background-color: rgb(218, 32, 32);/*VISUALIZADOR*/
 }
  
 .section-1 .article-bienvenidos .h2-bienvenidos {
-  margin-top: 3rem;
   font-size: 1.6em;/**/
   text-align: center;/**/
   letter-spacing: .3px;/**/
