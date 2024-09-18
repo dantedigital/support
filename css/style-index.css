@@ -39,120 +39,102 @@
 /*
 */
 
-
 /*--- inicia main div contenido principal
 */
   main {
-    display: flex;/**/
-    flex-direction: column;/**/
-    align-items: center;/**/
-    justify-content: center;/**/
-    width: 100%;/**/
-    /*background-color: rgb(18, 228, 63);/*VISUALIZADOR*/
-  }
-
-
-/*--- inicia section
-*/
-.section-1 {
-   display: flex;/**/
-   justify-content: center;/**/
-   width: 90%;/**/
-   height: 300px;/**/
-   /*background-color: rgb(136, 15, 218);/**/
+  display: flex;/**/
+  flex-direction: column;/**/
+  align-items: center;/**/
+  justify-content: center;/**/
+  width: 100%;/**/
+  /*background-color: rgb(18, 228, 63);/*VISUALIZADOR*/
 }
 
-
 /*
 */
 
-/*--- inicia primer article conel texto responsive web desing
-*/
-
-.section-1 .article-bienvenidos {
-    display: flex;/**/
-    justify-content: center;/**/
-    width: 300px;/**/
-    /*background-color: rgb(218, 32, 32);/*VISUALIZADOR*/
-  }
-
-  .section-1 .article-bienvenidos .h2-bienvenidos {
-    font-size: 1.6em;/**/
-    text-align: center;/**/
-    letter-spacing: .3px;/**/
-    text-transform: uppercase;
-    /*background-color: rgb(167, 189, 45);/*visualizador*/
-  }
-
-  .section-1 .article-bienvenidos, .text-principal {
-    font-family: 'Syncopate-Regular';
-  }
-
-/*------- finaliza primer article conel texto responsive web desing
-*/
-
-/*
-*/
-
-/*--- inicia primer article conel texto responsive web desing
-*/
-
-.section-2 .article-texto {
+/*inicia section*/
+.section-1 {
   display: flex;/**/
   justify-content: center;/**/
-  max-width: 600px;/**/
-  margin: 20px 20px 50px 20px;/*superior, derecho, inferior, izquierdo*/ 
-  /*max-width: 570px;/**/
-  /*background-color: rgb(218, 32, 32);/*VISUALIZADOR*/
+  /*width: 99%;/**/
+  /*background-color: rgb(136, 15, 218);/*VISUALIZADOR*/
 }
 
-.section-2 .article-texto .text-principal {
-  width: 87%;/**/
+.section-1 .article-bienvenidos {
+  display: flex;/**/
+  justify-content: center;/**/
+  max-width: 500px;/**/
+  /*background-color: rgb(218, 32, 32);/*VISUALIZADOR*/
+}
+ 
+.section-1 .article-bienvenidos .h2-bienvenidos {
+  margin-top: 3rem;
+  font-size: 1.6em;/**/
   text-align: center;/**/
   letter-spacing: .3px;/**/
   text-transform: uppercase;
   /*background-color: rgb(167, 189, 45);/*visualizador*/
 }
 
+.section-1 .article-bienvenidos, .text-principal {
+  font-family: 'Syncopate-Regular';
+}
+
 /*------- finaliza primer article conel texto responsive web desing
 */
 
-
-
-
-
-/*---- finaliza tercer article-img: proyectamos tus ideas en la realidad
-*/
-
 /*
 */
- 
 
-
-/* --- INICIA CONTENIDO FOOTER 
-*/
-/* --- INICIA ETIQUETA FOOTER 
-*/
-#footer-logo {
-  
-  background-color: rgb(0, 0, 0);/*V*/  
+/*--- inicia primer article conel texto responsive web desing*/
+.section-2 {
+  /*width: 99%;/**/
+  display: flex;/**/
+  justify-content: center;/**/
+  margin-top: 30PX;
+  /*background-color: rgb(188, 226, 17);/*VISUALIZADOR*/
 }
 
-/* FINALIZA FOOTER LOGO
+.section-2 .article-texto {
+  display: flex;/**/
+  justify-content: center;/**/
+  max-width: 1200px;/**/
+  margin: 20px 20px 180px 20px;/*superior, derecho, inferior, izquierdo*/ 
+  /*background-color: rgb(218, 32, 32);/*VISUALIZADOR*/
+}
+
+.section-2 .article-texto .text-principal {
+  font-size: 1.3em;/**/
+  text-align: center;/**/
+  letter-spacing: .3px;/**/
+  text-transform: uppercase;/**/
+  /*background-color: rgb(167, 189, 45);/*VISUALIZADOR*/
+}
+/*--- FINALIZA ARTICLE
 */
 
 /*
 */
 
-/* INICIA FOOTERLOGO Y DIV
-*/  
+/*INICIA ETIQUETA FOOTER*/
+#footer-logo {
+  background-color: rgb(0, 0, 0);/*V*/  
+}
+/* --- FINALIZA FOOTER LOGO
+*/
+
+/*
+*/
+
+/* INICIA FOOTERLOGO Y DIV*/  
 #footer-logo > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    /*background-color: rgb(231, 36, 36);/*visualizador*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /*background-color: rgb(231, 36, 36);/*visualizador*/
 }
 /* FINALIZA FOOTERLOGO Y DIV
 */

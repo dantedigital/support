@@ -1,8 +1,6 @@
 
-
-
 .nivo-caption {
-    text-align: right;
+    text-align: center;
     align-content: center;/**/
     height: 100%;/**/
     /*background-color: rgba(0, 255, 255, 0.432);/*VISUALIZADOR*/
@@ -13,11 +11,10 @@
     justify-content: center;/**/
 
     width: 100%;/**/
-    text-align:right;/**/
+    text-align:center;/**/
     font-family: 'Syncopate-Regular';/**/
     /*background-color: rgba(175, 47, 47, 0.452);/*VISUALIZADOR*/
 }
-
 
 .div-caption .p-caption {
     font-size: 1.8em;
@@ -32,14 +29,12 @@
         font-size: 2.1em;
         margin: 1rem 0rem 1.3rem 0rem;
 }
-
 }
 
 @media (min-width: 600px) {
     .div-caption .p-caption {
         font-size: 2.5em;
 }
-
 }
 
 @media (min-width: 768px) {
@@ -47,19 +42,17 @@
         font-size: 3em;
         margin: 1.5rem 0rem 1.5rem 0rem;
 }
-
 }
 
 @media (min-width: 868px) {
     .div-caption .p-caption {
         margin: 1.8rem 0rem 1.8rem 0rem;
 }
-
 }
 
 @media (min-width: 920px) {
     .div-caption .p-caption {
     font-size: 3.4em;
 }
-
 }
+
