@@ -1,24 +1,26 @@
 
+
 .nivo-caption {
     text-align: center;
     align-content: center;/**/
     height: 100%;/**/
-    /*background-color: rgba(0, 255, 255, 0.432);/*VISUALIZADOR*/
+    /*background-color: rgba(0, 255, 255, 0.836);/*VISUALIZADOR NO COLOREA NADA*/
 }   
 
 .div-caption { /*se tiene que centrar este texto es el caption de la imagen*/
     display: flex;/**/
     justify-content: center;/**/
-
     width: 100%;/**/
     text-align:center;/**/
-    font-family: 'Syncopate-Regular';/**/
-    /*background-color: rgba(175, 47, 47, 0.452);/*VISUALIZADOR*/
+    background-color: rgba(247, 8, 8, 0.719);/*VISUALIZADOR*/
 }
 
 .div-caption .p-caption {
+    color:#fff;/**/
+    text-align: center;/**/
     font-size: 1.8em;
-    /*background-color: rgba(170, 165, 233, 0.692);/*VISUALIZADOR*/
+    font-family: 'Syncopate-Regular';/**/
+    background-color: rgba(170, 165, 233, 0.692);/*VISUALIZADOR*/
 }
 
 /*

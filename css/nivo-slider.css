@@ -25,24 +25,24 @@
 	display: block !important;
 	position: relative !important; 
 	width: 100% !important;
+	/*background-color: chartreuse;/*VIZUALIZADOR NO COLOREA NADA*/
 }
 
-/* If an image is wrapped in a link */
+/*IF AN IMAGE IS WRAPPED IN A LINK*/
 .nivoSlider a.nivo-imageLink {
 	position:absolute;/**/
 	top:0px;/**/
 	left:0px;/**/
 	width:100%;/**/
-	height:100%;/**/
+	height:100%;/*100 PREDETERMINADO*/
 	border:0;/**/
 	padding:0;/**/
 	margin:0;/**/
-	z-index:6;/**/
+	z-index: 6;/*6 PREDETERMINADO*/
 	display:none;/**/
-	/*background:white; /**/
-	/*background: rgb(26, 187, 26);/*V*/
 	filter:alpha(opacity=0);/**/
 	opacity:0;/**/
+	/*background: rgb(5, 248, 5);/*VISUDALIZADOR NO COLOREA NADA*/
 }
 
 
@@ -50,46 +50,46 @@
 .nivo-slice {/*.nivo-slice*/
 	display:block;/**/
 	position:absolute;/**/
-	z-index:5;/**/
-	height:100%;/**/
+	z-index:5;/*5 PREDETERMINADO*/
+	height:100%;/*100*/
 	top:0;/**/
-	/*background-color: aqua;/**/
+	/*background-color: aqua;/*VISUALIZADOR NO COLOREA NADA*/
 }
 
 
 .nivo-box {
-	display:block;/**/
+	display:block;
 	position:absolute;/**/
-	z-index:5;/**/
+	z-index: 5;/*5 PREDETERMINADO*/
 	overflow:hidden;/**/
+	/*background-color: rgb(243, 5, 17);/*VISUALIZADOR*/
 }
 
-.nivo-box img { display:block; }/**/
+.nivo-box img { display:block; }
 
 
-/* Caption styles */
+/*Caption styles*/
 .nivo-caption {
-	position:absolute;		
-	/*top: 40%;/*mueve el contenido del texto header*/ 		  
+	position:absolute;/**/
 	left:0px;/**/
 	bottom:0px;/**/
-	font-family: sans-serif;/**/
 	text-align: center;/**/
-	color:#fff;/**/
 	width:100%;/**/
-	z-index:8;/**/
-	/*padding: 5px 10px;/**/
+	z-index: 8;/*8 PREDETERMINADO*/
+	padding: 5px 10px;/**/
 	overflow: hidden;/**/
 	display: none;/**/
+	/*background-color: rgba(2, 80, 247, 0.363);/*VISUALIZADOR*/
 }
 
-
-/* --- 
+/* --- ----------- ----------- ---- ---- --- --------- ---- 
 */
 
+/*inicia etiqueta p .nivo-*/
 .nivo-caption p {
-	padding:5px;/**/
-	margin:0;/**/
+	padding: 5px;/**/
+	margin: 0;/**/
+	/*background-color: chocolate;/**/
 }
 .nivo-caption a {
 	display:inline !important;/**/
@@ -98,6 +98,11 @@
     display:none;/**/
 }
 /* Direction nav styles (e.g. Next & Prev) */
+
+
+/*
+*/
+
 
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {

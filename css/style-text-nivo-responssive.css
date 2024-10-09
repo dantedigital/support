@@ -1,0 +1,59 @@
+
+
+
+.nivo-caption {
+    /*text-align: center;/**/
+    /*align-content: center;/**/
+    /*height: 100%;/**/
+    /*background-color: rgba(0, 255, 255, 0.432);/*VISUALIZADOR*/
+}   
+
+.div-caption { /*se tiene que centrar este texto es el caption de la imagen*/
+    /*display: flex;/**/
+    /*justify-content: center;/**/
+    /*width: 100%;/**/
+    /*text-align:center;/**/
+    /*font-family: 'Syncopate-Regular';/**/
+    /*background-color: rgba(175, 47, 47, 0.452);/*VISUALIZADOR*/
+}
+
+.div-caption .p-caption {
+    /*font-size: 1.8em;/**/
+    /*background-color: rgba(170, 165, 233, 0.692);/*VISUALIZADOR*/
+}
+
+/*
+*/
+
+@media (min-width: 520px) {
+    .div-caption .p-caption {
+        /*font-size: 2.1em;/**/
+        /*margin: 1rem 0rem 1.3rem 0rem;/**/
+}
+}
+
+@media (min-width: 600px) {
+    .div-caption .p-caption {
+        /*font-size: 2.5em;/**/
+}
+}
+
+@media (min-width: 768px) {
+    .div-caption .p-caption {
+        /*font-size: 3em;/**/
+        /*margin: 1.5rem 0rem 1.5rem 0rem;/**/
+}
+}
+
+@media (min-width: 868px) {
+    .div-caption .p-caption {
+        /*margin: 1.8rem 0rem 1.8rem 0rem;/**/
+}
+}
+
+@media (min-width: 920px) {
+    .div-caption .p-caption {
+    /*font-size: 3.4em;/**/
+}
+}
+

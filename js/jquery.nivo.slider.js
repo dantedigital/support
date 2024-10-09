@@ -636,10 +636,10 @@
     //Default settings
     $.fn.nivoSlider.defaults = {
         effect: 'random',
-        slices: 1,//15 predeterminado 
-        boxCols: 20,//8 predeterminado
-        boxRows: 7,//4 predeterminado
-        animSpeed: 490,//500 predeterminado
+        slices: 15,//15 predeterminado 
+        boxCols: 5,//8 predeterminado
+        boxRows: 9,//4 predeterminado
+        animSpeed: 400,//500 predeterminado
         pauseTime: 3500,//3000 predeterminado
         startSlide: 0,
         directionNav: true,
